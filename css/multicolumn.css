@@ -1,0 +1,54 @@
+body
+{
+    margin:0;
+}
+header
+{
+    background:steelblue;
+    text-align:center;
+    color:white;
+    padding:20px;
+    
+}
+main{
+    width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    margin-bottom:50px;
+    padding:5px;
+    font-size:20px;
+   
+}
+footer{
+    background:#1D3C41;
+    color:white;
+    font-size:20px;
+    margin-top:20px;
+   }
+.column
+{
+    display: flex;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+p{
+    font-size:21px;
+}
+.column1{
+   
+    margin:10px;
+}
+h1{
+    font-size:48px;
+}
+h2{
+    font-size: 36px;
+}
+h3
+{
+    font-size: 28px;
+    text-align: center;
+}
