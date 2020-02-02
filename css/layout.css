@@ -1,0 +1,56 @@
+body
+{
+    margin:0px;
+}
+h1
+{
+text-align: center;
+font-size:40px;
+color:white;
+}
+header{
+    background:rgb(228, 167, 53);
+    padding:5px;
+    
+    }
+main{
+    background: honeydew;
+    border:5px solid rgb(252, 46, 46);
+    margin-top:20px;
+    margin-right: auto;
+    margin-left:auto;
+    width:800px;
+    padding:20px;
+   
+}
+footer
+{
+background:rgb(53, 121, 182) ;
+margin-top:20px;
+padding:5px;
+}
+h2{
+font-size: 30px;
+color:teal;
+}
+h3
+{
+    font-size: 25px;
+    color:olive;
+}
+p{
+    font-size: 17px;
+    }
+    #foot,#foote
+    {
+        color:wheat;
+    }
+    #foote
+    {
+    text-align:center;
+    }
+    #foot
+    {
+        padding-left:100px;
+        font-size:20px;
+    }
