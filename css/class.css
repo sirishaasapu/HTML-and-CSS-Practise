@@ -1,0 +1,16 @@
+body{
+    background:lightgrey;
+}
+.head
+{
+    text-align: center;
+    font-size:30px;
+    font-style:gothic;
+    font-weight: bold;
+    text-decoration:underline;
+}
+.para
+{
+    text-align:center;
+    font-size:25px;
+}
