@@ -1,0 +1,20 @@
+body{
+    background:peachpuff;
+}
+#head
+{
+    text-align: center;
+    font-size:35px;
+    font-style:gothic;
+    font-weight: bold;
+}
+#para
+{
+    text-align:center;
+    font-size:25px;
+}
+#para1
+{
+    font-size:27px;
+    text-align: center;
+}
