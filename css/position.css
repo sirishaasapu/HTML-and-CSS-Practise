@@ -1,0 +1,40 @@
+body{
+    margin:0px;
+}
+header
+{
+    background:steelblue;
+   padding:30px 750px;
+   color:white;
+   text-align:center;
+   font-size:22px;
+   position:static;
+   position: fixed;
+   
+  margin:0px;
+    }
+    section
+
+    {
+        padding:100px 0 0 0;
+    }
+    .boxfirst,.boxsecond
+    {
+        margin:0px 300px;
+        width:auto;
+        background: rgb(243, 241, 241);
+        padding:10px;
+        border-radius:10px;
+        margin-top:10px;
+       
+    }
+   
+    footer{
+        background: plum;
+        
+        padding:30px 700px;
+        font-size:20px;
+        position: relative;
+              margin-top:20px;
+        
+    }
