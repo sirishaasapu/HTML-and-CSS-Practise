@@ -1,0 +1,26 @@
+
+figure
+{
+    width:800px;
+    height:400px;
+    margin-left:200px;
+}
+video
+{
+ 
+  width:1000px;
+  height: 500px;
+  margin:100px 0 0 240px ;
+}
+header
+{
+    text-align: center;
+    font-size:30px;
+    padding: 40px;
+    background: rgb(66, 207, 207);
+    border-radius: 20px;
+}
+iframe
+{
+    margin:10px 0 0 240px;
+}
