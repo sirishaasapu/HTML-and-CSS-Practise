@@ -1,0 +1,33 @@
+body
+{
+    margin:10px;
+    font-size:20px;    
+}
+#header
+{   
+    height: 50px;
+    width:100%;
+    background: #44accf;
+    text-align: center;
+}
+#content
+{
+    height: 400px;
+    width:75%;
+  background: #b7d84b;
+  text-align: center;
+
+}
+#nav {
+    height: 400px;
+    width:25%;
+    background: #e2a741;
+    float: right;
+    text-align: center;
+}
+#footer {
+    height: 50px;
+    background: #ee3e64;
+    text-align: center;
+    clear:both
+}
