@@ -1,0 +1,54 @@
+:root{
+    --radius:20px;
+}
+header{
+    background: steelblue;
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    border-radius:var(--radius);
+    padding:40px;
+    margin-top:20px;
+}
+nav
+{
+    background: lightsteelblue;
+    border-radius:var(--radius);
+    padding:10px;
+}
+section
+{
+    background:lightgoldenrodyellow;
+    padding:30px;
+    border-radius: var(--radius);
+    margin-top:40px;
+}
+article
+{
+    background: powderblue;
+    padding:30px;
+    margin:20px;
+    margin-right: 500px;
+    border-radius: var(--radius);
+    text-align: center;
+    font-size:20px;
+}
+aside
+{
+    background:lightgray;
+    padding:20px;
+    font-size: 30px;
+    border-radius: var(--radius);
+    float: right;
+    margin:-310px 50px 0 0;
+    padding:130px;
+}
+footer{
+    background:thistle;
+    padding:50px;
+    margin-top:40px;
+    text-align:center;
+    color:white;
+    font-size: 30px;
+    border-radius: var(--radius);
+}
