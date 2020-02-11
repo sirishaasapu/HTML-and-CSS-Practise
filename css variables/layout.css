@@ -17,10 +17,11 @@ nav
     padding:10px;
 }
 section
-{
+{ 
+      --sec-rad:30px;
     background:lightgoldenrodyellow;
     padding:30px;
-    border-radius: var(--radius);
+    border-radius: var(--sec-rad);
     margin-top:40px;
 }
 article
@@ -29,7 +30,7 @@ article
     padding:30px;
     margin:20px;
     margin-right: 500px;
-    border-radius: var(--radius);
+    border-radius: var(--sec-rad);
     text-align: center;
     font-size:20px;
 }
@@ -38,7 +39,7 @@ aside
     background:lightgray;
     padding:20px;
     font-size: 30px;
-    border-radius: var(--radius);
+    border-radius: var(--sec-rad);
     float: right;
     margin:-310px 50px 0 0;
     padding:130px;
