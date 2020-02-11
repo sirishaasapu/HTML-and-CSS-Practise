@@ -22,14 +22,16 @@ nav
 section
 { 
       --sec-rad:30px;/****local variabe declartion***/
-    background:lightgoldenrodyellow;
+      --yellow:rgb(97, 129, 32);
+    background:var(--yellow);
     padding:30px;
     border-radius: var(--sec-rad);
     margin-top:40px;
 }
 article
-{
-    background: powderblue;
+{  
+    --yellow:rgb(192, 241, 94);
+    background:var(--yellow);
     padding:30px;
     margin:20px;
     margin-right: 500px;
@@ -39,7 +41,8 @@ article
 }
 aside
 {
-    background:lightgray;
+    --yellow:rgb(192, 241, 94);
+    background:var(--yellow);
     padding:20px;
     font-size: 30px;
     border-radius: var(--sec-rad);
