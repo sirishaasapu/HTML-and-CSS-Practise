@@ -3,18 +3,21 @@
     --beige: #ffeead;
     --yellow: #ffcc5c;
     --column:200px 200px;
+    --color:var(--red);
 }
 
 html, body {
     background: var(--beige);
-    color: var(--red);
+    color: var(--color);/***inherited red color**/
 }
 
 h1, p {
-    color: var(--red);
+   
+    color: var(--color);
 }
 
 #navbar a {
+    --red:green;
     color: var(--red);
 }
 
