@@ -3,7 +3,7 @@
     <head>
         <title>Resume</title>
     </head>
-    <body>
+    <body style="background-image:url('../img/trees.jpg');">
         <div>
             <h3>Durga sai sirisha Asapu</h3>
              <p title="branch 'cse'">computer science and engineering</p>
@@ -14,7 +14,7 @@
         </div>
         <img src="../img/trees.jpg" alt="nature" width="100" height="100" usemap="#mapping"/>
         <map name="mapping">
-            <area shape="circle" coords="77,60,22" href="../Html/boxmodel.html" alt="tree"/>
+            <area shape="circle" coords="77,60,22" href="../Html/boxmodel.html" alt="tree" onclick="alerting()"/>
         </map>
         <div>
             <h3>career objective</h3>
@@ -65,5 +65,10 @@
                 <li><b>version control:</b>github</li>
             </ul>
         </div>
+        <script>
+            function alerting(){
+                alert("Iam from image which you clicked");
+            }
+        </script>
     </body>
 </html>
