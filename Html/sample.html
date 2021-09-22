@@ -3,7 +3,13 @@
     <head>
         <title>Resume</title>
     </head>
-    <body style="background-image:url('../img/trees.jpg');">
+    <!-- <body style="background-image:url('../img/trees.jpg');"> -->
+        <body>
+            <div>
+                <!--webpage within an another webpage-->
+                <iframe src="id.html" title="id selector" name="ids" style="border:none"></iframe>
+                <a href="boxmodel.html" target="ids">change</a>
+            </div>
         <div>
             <h3>Durga sai sirisha Asapu</h3>
              <p title="branch 'cse'">computer science and engineering</p>
@@ -12,7 +18,7 @@
              <!--target blank means it will open in another page-->
              <p><a href="https://github.com/" target="_blank">github link</a></p>
         </div>
-        <img src="../img/trees.jpg" alt="nature" width="100" height="100" usemap="#mapping"/>
+         <img src="../img/trees.jpg" alt="nature" width="100" height="100" usemap="#mapping"/>
         <map name="mapping">
             <area shape="circle" coords="77,60,22" href="../Html/boxmodel.html" alt="tree" onclick="alerting()"/>
         </map>
