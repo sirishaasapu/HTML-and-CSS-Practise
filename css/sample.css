@@ -3,10 +3,11 @@
 } */
 body{
     background-color:white;
-    margin:0 20%;
+    margin:10px 20%;
     border:1px solid lightgrey;
     padding:2% 5%;
     font-family: "Sofia", sans-serif;
+    box-shadow: 5px 5px 5px 5px rgb(230, 225, 225);
 }
 .subhead{
     background-color: lightgrey;
@@ -44,9 +45,9 @@ body{
 .acadamics>tbody>tr:hover{
      background-color: grey;
 }
-img{
+/* img{
     position:absolute; 
     top:0;
     left:0;
     z-index:-1;
-}
+} */
