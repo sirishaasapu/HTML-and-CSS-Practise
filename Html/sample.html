@@ -3,6 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <title>Resume</title>
+        <link rel="stylesheet" href="../css/sample.css"/>
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+        <style rel="stylesheet/css">
+            #myname{
+                color:rgb(61, 152, 238);
+            }
+        </style>
     </head>
     <!-- <body style="background-image:url('../img/trees.jpg');"> -->
         <body>
@@ -11,41 +18,42 @@
                 <iframe src="id.html" title="id selector" name="ids" style="border:none"></iframe>
                 <a href="boxmodel.html" target="ids">change</a>
             </div> -->
-        <div>
-            <h3>Durga sai sirisha Asapu</h3>
+            <img src="../img/trees.jpg" alt="nature" width="100" height="100" usemap="#mapping" style="float:right;border:1px solid black"/>
+            <map name="mapping">
+                <area shape="circle" coords="77,60,22" href="../Html/boxmodel.html" alt="tree" onclick="alerting()"/>
+            </map>
+        <div style="line-height:5px">
+            <h3 id="myname">Durga sai sirisha Asapu</h3>
              <p title="branch 'cse'">computer science and engineering</p>
              <p>prasiddha college of engineering and technology</p>
              <p>asapusirisha@gmail.com|+91-7786567899</p>
              <!--target blank means it will open in another page-->
              <p><a href="https://github.com/" target="_blank">github link</a></p>
         </div>
-         <img src="../img/trees.jpg" alt="nature" width="100" height="100" usemap="#mapping"/>
-        <map name="mapping">
-            <area shape="circle" coords="77,60,22" href="../Html/boxmodel.html" alt="tree" onclick="alerting()"/>
-        </map>
+        
         <!-- svg used to describe graphics for web -->
-        <div>
+        <!-- <div>
             <svg width="60" height="60">
                 <circle cx="20" cy="30" r="10" stroke="green" stroke-width="2" fill="red" />
                 </svg>
                 <svg width="60" height="60">
                     <rect width="30" height="30" stroke="yellow" stroke-width="3" fill="red"/>
                 </svg>
-            </div>
-        <div>
-            <div>
+            </div> -->
+            <!-- <div>
            <video autoplay controls width="50%" height="100%">
                <source src="C:\Users\HP\Videos\Imagine Dragons - Believer (Lyrics).mp4" type="video/mp4"/>
            </video>
-        </div>
-            <h3>career objective</h3>
+        </div> -->
+        <div>
+            <h3 class="subhead">career objective</h3>
             <p>seeking a productive positionto utilize my skills and upgrade them through continuous learning 
                 in a challenging environment that helps me to contribute efficiently for the growth of the organization while being
                 resourceful and innovative
             </p>
         </div>
         <div>
-            <h3>Academics</h3>
+            <h3 class="subhead">Academics</h3>
             <table>
                 <thead>
                 <tr>
@@ -78,7 +86,7 @@
             </table>
         </div>
         <div>
-            <h3>Technical skill's</h3>
+            <h3 class="subhead">Technical skill's</h3>
             <ul>
                 <li><b>programming Languages:</b>Basics of c ,javascript</li>
                 <li><b>Web Technologies:</b>HTML5,CSS3,Bootstrap4</li>
