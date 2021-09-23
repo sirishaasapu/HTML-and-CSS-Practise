@@ -44,3 +44,9 @@ body{
 .acadamics>tbody>tr:hover{
      background-color: grey;
 }
+img{
+    position:absolute; 
+    top:0;
+    left:0;
+    z-index:-1;
+}
