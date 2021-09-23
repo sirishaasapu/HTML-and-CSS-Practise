@@ -10,9 +10,12 @@ body{
     box-shadow: 5px 5px 5px 5px rgb(230, 225, 225);
 }
 .subhead{
-    background-color: lightgrey;
-    padding:3px;
+    background-color: rgb(247, 243, 243);
+    padding:6px;
 
+}
+.detail{
+    line-height:5px;
 }
 /* display none will not take any space */
 /* visibility hidden will take some space before */
@@ -51,3 +54,33 @@ body{
     left:0;
     z-index:-1;
 } */
+/*mobile view*/
+@media screen and (min-width:360px) and (max-width:480px){
+    body{
+        background-color:white;
+        margin:0 0;
+        border:1px solid rgb(23, 50, 58);
+        padding:2% 5%;
+        font-family: "Sofia", sans-serif;
+        box-shadow: 5px 5px 5px 5px rgb(230, 225, 225);
+
+}
+.detail{
+    line-height:normal;
+}
+}
+/*tablet view*/
+@media screen and (min-width:481px) and (max-width:680px)
+{
+    body{
+        background-color:white;
+        margin:0 0;
+        border:1px solid rgb(126, 53, 53);
+        padding:2% 5%;
+        font-family: "Sofia", sans-serif;
+        box-shadow: 5px 5px 5px 5px rgb(230, 225, 225);
+    }
+    .detail{
+        line-height:10px;
+    }
+}
