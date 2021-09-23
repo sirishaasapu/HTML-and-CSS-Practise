@@ -7,17 +7,19 @@
         <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
         <style rel="stylesheet/css">
             #myname{
-                color:rgb(61, 152, 238);
+                color:rgb(20, 108, 190);
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                text-shadow: 2px 2px red;
             }
         </style>
     </head>
     <!-- <body style="background-image:url('../img/trees.jpg');"> -->
         <body>
-            <!-- <div>
+            <div class="frame">
                 webpage within an another webpage
                 <iframe src="id.html" title="id selector" name="ids" style="border:none"></iframe>
                 <a href="boxmodel.html" target="ids">change</a>
-            </div> -->
+            </div> 
             <img src="../img/trees.jpg" alt="nature" width="100" height="100" usemap="#mapping" style="float:right;border:1px solid black"/>
             <map name="mapping">
                 <area shape="circle" coords="77,60,22" href="../Html/boxmodel.html" alt="tree" onclick="alerting()"/>
@@ -28,7 +30,7 @@
              <p>prasiddha college of engineering and technology</p>
              <p>asapusirisha@gmail.com|+91-7786567899</p>
              <!--target blank means it will open in another page-->
-             <p><a href="https://github.com/" target="_blank">github link</a></p>
+             <p>github link: <a class="gitlink"  href="https://github.com/" target="_blank">github.com</a></p>
         </div>
         
         <!-- svg used to describe graphics for web -->
@@ -47,14 +49,14 @@
         </div> -->
         <div>
             <h3 class="subhead">career objective</h3>
-            <p>seeking a productive positionto utilize my skills and upgrade them through continuous learning 
+            <p class="des">seeking a productive positionto utilize my skills and upgrade them through continuous learning 
                 in a challenging environment that helps me to contribute efficiently for the growth of the organization while being
                 resourceful and innovative
             </p>
         </div>
         <div>
             <h3 class="subhead">Academics</h3>
-            <table>
+            <table class="acadamics"> 
                 <thead>
                 <tr>
                     <th>Qualification</th>
@@ -87,11 +89,11 @@
         </div>
         <div>
             <h3 class="subhead">Technical skill's</h3>
-            <ul>
-                <li><b>programming Languages:</b>Basics of c ,javascript</li>
-                <li><b>Web Technologies:</b>HTML5,CSS3,Bootstrap4</li>
-                <li><b>Development tools:</b>vs code</li>
-                <li><b>version control:</b>github</li>
+            <ul style="line-height:20px">
+                <li><b>programming Languages: </b>Basics of c ,javascript</li>
+                <li><b>Web Technologies: </b>HTML5,CSS3,Bootstrap4</li>
+                <li><b>Development tools: </b>vs code</li>
+                <li><b>version control: </b>github</li>
             </ul>
         </div>
         <script>

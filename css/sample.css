@@ -1,10 +1,46 @@
+/* *{
+    background-color:red;
+} */
 body{
+    background-color:white;
     margin:0 20%;
     border:1px solid lightgrey;
     padding:2% 5%;
+    font-family: "Sofia", sans-serif;
 }
 .subhead{
     background-color: lightgrey;
     padding:3px;
 
+}
+/* display none will not take any space */
+/* visibility hidden will take some space before */
+.frame{
+    display:none;
+    /* visibility: hidden; */
+}
+.des{
+    text-indent: 10%;
+}
+.gitlink{
+    text-decoration:none;
+}
+.gitlink:hover{
+    text-shadow: 2px 2px grey;
+}
+.acadamics>thead>tr>th{
+       background-color:rgb(7, 20, 7);
+       opacity: 0.9;
+       padding:10px;
+       color:white;
+       text-align:left;
+}
+.acadamics>tbody>tr{
+    background-color:lightgrey;
+}
+.acadamics>tbody>tr>td{
+    padding:10px; 
+}
+.acadamics>tbody>tr:hover{
+     background-color: grey;
 }
