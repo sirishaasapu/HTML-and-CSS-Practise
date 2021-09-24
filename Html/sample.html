@@ -12,14 +12,14 @@
                 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                 text-shadow: 2px 2px red;
             }
-            ul li{
+            .skills li{
                 list-style-type: none;
             }
-            ul li::before{
+            .skills li::before{
                content:"\2022";
                 color:green;
                 font-size:20px;
-                margin-right:10px;
+                margin-right:20px;
             }
         </style>
     </head>
@@ -30,12 +30,10 @@
                 <iframe src="id.html" title="id selector" name="ids" style="border:none"></iframe>
                 <a href="boxmodel.html" target="ids">change</a>
             </div> 
-            <img src="../img/trees.jpg" alt="nature" width="100" height="100" align="right" usemap="#mapping" style="float:right;border:1px solid black"/>
+            <img src="../img/trees.jpg" alt="nature" width="100" height="100" usemap="#mapping" style="float:right;border:1px solid black"/>
             <map name="mapping">
                 <area shape="circle" coords="77,60,22" href="../Html/boxmodel.html" alt="tree" onclick="alerting()"/>
-            </map>seeking a productive positionto utilize my skills and upgrade them through continuous learning 
-            in a challenging environment that helps me to contribute efficiently for the growth of the organization while being
-            resourceful and innovative
+            </map>
         <div class="detail">
             <h3 id="myname">Durga sai sirisha Asapu</h3>
              <p title="branch 'cse'"><font color="color">computer science and engineering</font></p>
@@ -101,13 +99,24 @@
         </div>
         <div>
             <h3 class="subhead">Technical skill's</h3>
-            <ul style="line-height:20px">
+            <ul style="line-height:20px" class="skills">
                 <li><b>programming Languages: </b>Basics of c ,javascript</li>
                 <li><b>Web Technologies: </b>HTML5,CSS3,Bootstrap4</li>
                 <li><b>Development tools: </b>vs code</li>
                 <li><b>version control: </b>github</li>
             </ul>
         </div>
+
+        <div>
+            <h3 class="subhead">Hobbies</h3>
+            <ul style="line-height:20px" type="a" value="2">
+                <li>watching tv</li>
+                <li>playing shuttle</li>
+                <li>xyz</li>
+                <li>ABC</li>
+            </ul>
+        </div>
+      
         <script>
             function alerting(){
                 alert("Iam from image which you clicked");
